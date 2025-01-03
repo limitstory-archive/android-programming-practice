@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dog"
+        android:src="@drawable/dog"
+        android:visibility="gone"></ImageView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cat"
+        android:src="@drawable/cat"
+        android:visibility="gone"></ImageView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rabbit"
+        android:src="@drawable/rabbit"
+        android:visibility="gone"></ImageView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/horse"
+        android:src="@drawable/horse"
+        android:visibility="gone"></ImageView>
+
+
+
+</LinearLayout>

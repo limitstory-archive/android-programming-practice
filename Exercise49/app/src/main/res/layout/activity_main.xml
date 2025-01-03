@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="회전하기"
+        android:drawableLeft="@drawable/r11"
+        android:drawableRight="@drawable/r11"></Button>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgView"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/fox"></ImageView>
+
+</LinearLayout>
